@@ -13,7 +13,7 @@ body {
 #repeatButton {
     appearance: none;
     border: none;
-    background: url(https://andyhoffman.codes/random-assets/img/slots/repeat.png) transparent 0 0 no-repeat;
+    background: url(imgs/repeat.png) transparent 0 0 no-repeat;
     background-size: cover;
     width: 48px;
     height: 48px;
