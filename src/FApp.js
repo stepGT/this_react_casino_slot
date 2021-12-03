@@ -49,13 +49,9 @@ const FApp = () => {
     return loser[Math.floor(Math.random() * loser.length)];
   };
 
-  if (winner !== null) {
-    repeatButton = <RepeatButton onClick={handleClick} />;
-  }
-
-  if (winner) {
-    winningSound = <WinningSound />;
-  }
+  repeatButton = (winner !== null) ? <RepeatButton onClick={handleClick} /> : null;
+  winningSound = winner ? <WinningSound /> : null;
+  
   return (
     <div>
       {winningSound}
